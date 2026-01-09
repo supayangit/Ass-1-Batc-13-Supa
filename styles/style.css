@@ -2,6 +2,8 @@ body{
     font-family: "Inter", sans-serif;
     margin: 0;
 }
+
+/* header section style */
 header{
     max-width: 1600px;
     height: 92px;
@@ -12,12 +14,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 header .logo-box img{
    width: 139px;
    height: 60px;
 }
 
+/* navs style */
 nav ul{
     list-style-type: none;
     display: flex;
@@ -29,6 +31,8 @@ nav ul li a{
     color: #000000;
     font-size: 16px;
 }
+
+/* buttons style */
 .primary-btn{
     border: none;
     border-radius: 4px;
@@ -75,7 +79,6 @@ main{
     padding: 115.5px 415px 179.5px;
     box-sizing: border-box;
     margin-bottom: 60px;
-    
 }
 .banner-content{
     text-align: center;
@@ -105,6 +108,7 @@ main{
     gap: 16px;
 }
 
+/* notes section styles */
 .notes-section{
     padding: 0 120px;
     text-align: center;
@@ -157,11 +161,7 @@ main{
     display: block;
 }
 
-.brain-text p.text-green{
-    font-size: 16px; 
-    color: #30B868; 
-}
-
+/* brain section styles */
 .brain-section{
     display: flex;
     justify-content: space-between;
@@ -171,7 +171,10 @@ main{
     padding: 0 120px;
     margin-top: 120px;
 }
-
+.brain-text p.text-green{
+    font-size: 16px; 
+    color: #30B868; 
+}
 .brain-text ul{
     list-style-type: none;
     margin-top: 40px;
@@ -195,6 +198,8 @@ main{
     object-fit:cover;
     display: block;
 }
+
+/* ready section styles */
 .ready-section{
     background-color: #F7F6F2;
     padding: 80px 40px;
@@ -213,6 +218,8 @@ main{
 .ready-text h1{
     font-size: 2.5em;
 }
+
+/* footer styles */
 footer{
     background-color: #001931;
     height: 347px;
@@ -250,11 +257,11 @@ footer{
     color: #1a1a1a;              
     font-size: 16px;
 }
-footer p{
-    color: #FAFAFA;
-    font-size: 16px;
-}
 footer hr{
     border: 0.1px solid #627382;
     margin: 80px 0 24px;
+}
+footer p{
+    color: #FAFAFA;
+    font-size: 16px;
 }
