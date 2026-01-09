@@ -14,9 +14,10 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header .logo-box img{
+.logo-box img{
    width: 139px;
    height: 60px;
+   cursor: pointer;
 }
 
 /* navs style */
@@ -210,7 +211,7 @@ main{
     margin: 120px 120px 0;
 }
 .ready-text{
-    max-width: 580px;
+    max-width: 570px;
     box-sizing: border-box;
     text-wrap: wrap;
     text-align: center;
